@@ -1,0 +1,88 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Alinea a la izquierda */
+        }
+        header img {
+            width: 250px; /* Tamaño del logo */
+            height: 250;
+            margin-right: 15px;
+
+        }
+        header h1 {
+            font-size: 72px; /* Aumenta tamaño del título */
+            margin: 0;
+
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            text-align: left;
+
+        }
+        .container h2 {
+            font-size: 30px;
+            padding: 6px;
+            text-align: center;
+         
+        }
+        .container p {
+            font-size: 18px;
+            padding: 6px;
+            text-align: left;
+          
+           
+        }
+        .info {
+            font-size: 20px;
+            margin: 20px;
+        }
+        .images-container {
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .image-box {
+            margin: 15px;
+            text-align: center;
+        }
+        .image-box img {
+            width: 400px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .image-box p {
+            font-weight: bold;
+        }
+        .socials {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
